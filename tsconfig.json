@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "rootDir": "./",
+    "outDir": "./build",
+    "esModuleInterop": true,
+    "strict": true,
+  },
+  "include": [
+    "src/**/*",
+    "node_modules/hash.js/lib/hash.d.ts",
+    "node_modules/hash.js/lib/hash.d.ts"
+  ],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
